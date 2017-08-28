@@ -1,0 +1,61 @@
+#listContainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+h1{
+  align-self: center;
+}
+.listMustache{
+  border-style: solid;
+  border-color: grey;
+  width:220px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:16px;
+  padding:5px;
+}
+#profile{
+  margin: 25px;
+}
+#top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#profileImg{
+border-radius:50%;
+}
+#forHire{
+  color:red;
+}
+.addEmail{
+  border-right-style: solid;
+  border-width: thin;
+  padding:10px;
+}
+#skills{
+  display:flex;
+  flex-direction: row;
+}
+.es{
+  font-weight: bold;
+}
+
+#right{
+display: flex;
+flex-direction: column;
+}
+#addressJob{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#emailPhone{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

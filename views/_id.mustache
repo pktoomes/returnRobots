@@ -1,0 +1,21 @@
+<div id = "profile">
+  <section id = "top">
+  <img src = {{#avatar}}{{avatar}}{{/avatar}} id = "profileImg">
+    <div id = 'right'>
+      <h1>{{#name}}{{name}}{{/name}}</h1>
+
+   <div id = "addressJob"> <p><span class="addEmail">{{#address}}{{city}}{{/address}}{{#address}}{{country}}{{/address}}</span></p>
+    <p> {{#job}}{{job}}{{/job}}{{^job}}<p><span id = "forHire">Available for Hire{{/job}}{{#company}}{{company}}{{/company}}</span></p>
+  </div>
+  <div id = "emailPhone">
+    <p><span class = 'addEmail'> {{#email}}{{email}}{{/email}}</span></p>
+    <p> {{#phone}}{{phone}}{{/phone}}</p>
+  </div>
+  </section>
+  <section id = "bottom">
+    <p><span class = "es">Education:</span> {{#university}}{{university}}{{/university}}</p>
+    <div id = skills>
+    <p><span class = "es">Skills:</span></p><ul> {{#skills}}<li>{{.}}</li>{{/skills}}</ul>
+  </div>
+  </section>
+</div>
